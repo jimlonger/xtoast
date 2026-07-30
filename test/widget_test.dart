@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:toast/main.dart';
-import 'package:toast/toast.dart';
+import 'package:xtoast/main.dart';
+import 'package:xtoast/toast.dart';
 
 void main() {
   tearDown(() {
@@ -33,7 +33,10 @@ void main() {
     expect(find.text('这是一条默认 Toast'), findsOneWidget);
     expect(find.byIcon(Icons.close_rounded), findsNothing);
     expect(_decoratedBoxWithColor(const Color(0xE6FFFFFF)), findsOneWidget);
-    expect(_decoratedBoxWithRadius(BorderRadius.circular(20)), findsOneWidget);
+    expect(
+      _decoratedBoxWithRadius(const BorderRadius.all(Radius.circular(1000))),
+      findsOneWidget,
+    );
 
     Toast.dismiss();
     await tester.pump();

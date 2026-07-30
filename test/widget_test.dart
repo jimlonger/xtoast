@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:simple_toast/main.dart';
-import 'package:simple_toast/toast.dart';
+import 'package:x_toast_plus/main.dart';
+import 'package:x_toast_plus/toast.dart';
 
 void main() {
   tearDown(() {

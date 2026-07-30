@@ -1,5 +1,5 @@
 name: toast_example
-description: A runnable example app for the local simple_toast package.
+description: A runnable example app for the local x_toast_plus package.
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  simple_toast:
+  x_toast_plus:
     path: ../
 
 dev_dependencies:

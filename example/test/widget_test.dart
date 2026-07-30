@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:simple_toast/toast.dart';
+import 'package:x_toast_plus/toast.dart';
 import 'package:toast_example/main.dart';
 
 void main() {

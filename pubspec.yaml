@@ -1,4 +1,4 @@
-name: xtoast
+name: simple_toast
 description: A lightweight Flutter toast and loading HUD package built with OverlayEntry.
 repository: https://github.com/jimlonger/xtoast
 issue_tracker: https://github.com/jimlonger/xtoast/issues

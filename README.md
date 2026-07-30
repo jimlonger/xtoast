@@ -15,7 +15,7 @@
 ## 使用
 
 ```dart
-import 'package:xtoast/toast.dart';
+import 'package:simple_toast/toast.dart';
 
 void main() {
   runApp(const MyApp());

@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:xtoast/toast.dart';
+import 'package:simple_toast/toast.dart';
 
 void main() {
   runApp(const ToastExampleApp());
